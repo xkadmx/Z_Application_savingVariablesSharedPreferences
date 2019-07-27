@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Z_Application_savingVariablesSharedPreferences</string>
+    <string name="apply_text">Apply text</string>
+    <string name="save_data">Save data</string>
 </resources>

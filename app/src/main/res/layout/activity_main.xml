@@ -10,17 +10,31 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Here will be our text:"
-        android:textSize="30sp"/>
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        tools:text="Here will be our text:" />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no" tools:targetApi="o"
+        android:inputType="" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Apply text"
+        android:text="@string/apply_text"
+        android:layout_gravity="center_horizontal"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_data"
         android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>
